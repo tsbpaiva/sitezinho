@@ -52,4 +52,7 @@
     color: #D23333;
   }
 
+a {
+    text-decoration: none !important;
+}
 
