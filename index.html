@@ -1,3 +1,5 @@
+<!-- Next: navbar float, consertar fontes, personalizar icone top left-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,27 +12,65 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 <body>
-   <div class="bck1 heading-big">
-        <p>Thaís is learning how to code</p>
-        <img src="images/coding.jpg" alt="A woman, who is not me, typing on a Mac">
+    <div class="container">
+      <nav class="navbar navbar-expand-md navbar-light navbar-color text-center">
+        <a href="#" class="navbar-brand">
+          <img src="images/icon.png" alt="just a cute round placeholder logo" width="45" height="45"
+          class="d-inline-block align-top"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#toggleMobileMenu"
+          aria-controls="toggleMobileMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="toggleMobileMenu">
+          <ul class="navbar-nav ms-auto text-center">
+            <li>
+              <a class="nav-link" href="#">Item 1</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Item 2</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Item 3</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Item 4</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+    </div>
+
+   <div class="bck1">
+      <div class="container">
+        <div class="row">
+          <div class="col-1"></div><!--coluna de espaço na direita/esquerda-->
+          <div class="col-sm fs-1 lh-1 center-vert">
+            <p>Thaís<br>is learning<br>how to code</p>
+          </div>
+          <div class="col img-padding">
+            <img src="images/coding.jpg " alt="A woman, who is in fact me, typing on a laptop with many cool stickers">
+          </div>
+          <div class="col-1"></div><!--coluna de espaço na direita/esquerda-->
+        </div>  
+      </div>  
    </div>
 
    <div class="bck2 py-3">
       <div class="container">
 
-        <h2>First steps in coding</h2>
-        <!--
-        <p>This is my first attempt at coding a website. It's not perfect, but I'm having fun.</p>
-        <p>Here's how my coding journey has been so far:</p>
-        <ol>
-            <li>I completed the Ruby track on Codecademy. It was my first coding experience <strong>ever</strong> and it took me around 40h to complete, but I'm glad I took my time; I can already tell it was a solid foundation.</li>
-            <li>I went into the basics of web development and started a bootcamp with Frontend Masters, an introduction to HTML, CSS and Javascript. If I'm making this website now, it's because this bootcamp taught me good stuff. </li>
-            <li>I got accepted to ReDI School in Munich to study Introduction to Computer Science, to bridge all conceptual gaps between my original formation and programming.</li>
-            <li>Next stop: Le Wagon, a 9-week, super intensive, immersive coding bootcamp that will take me from beginner and give me all tools necessary to fight for my first IT-job. Lemme tell ya, summer of 2022 will  be a busy time for me.</li>
-        </ol>
-        -->
-
-        <div class="accordion accordion-flush" id="accordionFlushExample">
+        <h2>First steps</h2>
+      
+        <p>This is my first attempt at coding a website. It's not perfect, but I'm having fun.<br>Here's how my coding journey has been so far:</p>
+        
+        <div class="accordion accordion-flush accordion-color" id="accordionFlushExample">
 
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
@@ -84,30 +124,38 @@
     <div class="bck3 py-3">
       <div class="container">
         <h2>One creative head, many hats</h2>
-        <h6>I've been around for a while, and my professional journey definitely did not start yesterday. Here's some of the stuff I did before coding became my next big thing. </h6>
+        <p>I've been around for a while, and my professional journey definitely did not start yesterday.<br>Here's some of the stuff I did before coding became my next big thing. </p>
       </div>
-      <div class="container py-3">
+
+      <div class="container py-3 center-text">
         <div class="row">
+          <div class="col-1"></div><!--coluna de espaço na direita/esquerda-->
           <div class="col-sm p-3">
             <img src="images/graduate.png" alt="graduate icon>" class="py-2">
             <p>Went to college for Communications and earned a Bachelor's degree in Publishing at UFRJ, one of the best universities in Brazil.</p>
           </div>
+
           <div class="col-sm p-3">
             <img src="images/book-stack.png" alt="book stack icon>" class="py-2">
             <p>Worked at Sextante, one of Brazil's top publishing houses, and made my way from Intern to Acquiring Editor (for those not in the know, one of the most coveted positions in Publishing).</p>
           </div>
+          <div class="col-1"></div><!--coluna de espaço na direita/esquerda-->  
         </div>
         <div class="row">
+          <div class="col-1"></div><!--coluna de espaço na direita/esquerda-->
           <div class="col-sm p-3">
             <img src="images/translation.png" alt="translation icon>" class="py-2">
             <p>Got a Specialist degree in Translation from a prestigious university (PUC-Rio) and built a successful freelancing career, translating books and localizing videogames.</p>
           </div>
+
           <div class="col-sm p-3">
             <img src="images/ceo.png" alt="woman ceo icon>" class="py-2">
             <p>Started a translation/education startup with three other friends and turned it into a thriving business. I'm no longer with the company, but you can check them out <a href="http://apretexto.com.br" target="_blank">here</a>.</p>
           </div>
+          <div class="col-1"></div><!--coluna de espaço na direita/esquerda-->
         </div>
         <div class="row">
+          <div class="col-1"></div><!--coluna de espaço na direita/esquerda-->
           <div class="col-sm p-3">
             <img src="images/juggle.png" alt="juggling icon>" class="py-2">
             <p>Had many interesting side gigs in life, such as photographer at a ski resort in the USA, wedding photographer, English teacher, audiobook director, ghost writer, interpreter and hostess in literary events.</p>
@@ -116,6 +164,7 @@
             <img src="images/germany-map.png" alt="germany icon>" class="py-2">
             <p>Sold everything I owned, gave up my apartment and moved to Germany during a pandemic from a non-EU country with two cats in tow. I managed the whole thing as one smooth process, navigating entry restrictions and rules that changed every week, and if that doesn't tell you <strong>a lot</strong> about my organization skills and resilience, nothing else will.</p>
           </div>
+          <div class="col-1"></div><!--coluna de espaço na direita/esquerda-->
         </div>
       </div>
 

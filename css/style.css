@@ -1,28 +1,43 @@
-.heading-big {
-    font-size: 32px!important;
-    line-height: 40px!important;
+.accordion-body {
+  background: #fde2e4 !important;
 }
 
+.accordion-button {
+  font-size: inherit !important;
+  background: #eae4e9 !important;
+  border: 0px !important;
+
+}
+
+.accordion-button:not(.collapsed) {
+  background: #fcd9db !important;
+  color: black !important;
+  border: 0px !important;
+  
+}
 
 .bck1 {
     background: #e2ece9
 }
 
-
-
 .bck2 {
     background: #fde2e4
 }
-
 
 .bck3 {
     background: #FFF1E6
 }
 
-
-
 .bck4 {
     background: #F0EFEB
+}
+
+.center-text {
+    text-align: center;
+}
+
+.center-vert {
+  padding: 140px 0;
 }
 
 .footer {
@@ -52,7 +67,18 @@
     color: #D23333;
   }
 
-a {
-    text-decoration: none !important;
+.img-padding {
+  padding: 8px 0;
 }
 
+.navbar-color {
+  background-color: #bee1e6 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+body {
+  background: #bee1e6 !important;
+}
