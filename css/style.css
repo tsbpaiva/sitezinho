@@ -3,7 +3,7 @@
 }
 
 .accordion-button {
-  font-size: inherit !important;
+  font-size: 24px !important;
   background: #eae4e9 !important;
   border: 0px !important;
 
@@ -68,12 +68,18 @@
   }
 
 .img-padding {
-  padding: 8px 0;
+  padding: 8px 0 !important;
 }
 
 .navbar-color {
   background-color: #bee1e6 !important;
 }
+
+.navbar-brand {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
 
 a {
   text-decoration: none !important;
