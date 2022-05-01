@@ -32,6 +32,19 @@
     background: #F0EFEB
 }
 
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #1EDD88;
+  transition: background 0.3s ease;
+}
+
+.btn-flat:hover {
+  background: #F0EFEB;
+  color: white;
+}
+
 .center-text {
     text-align: center;
 }
