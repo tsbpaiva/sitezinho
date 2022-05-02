@@ -36,13 +36,15 @@
   color: white;
   padding: 8px 24px;
   border-radius: 4px;
-  background: #1EDD88;
-  transition: background 0.3s ease;
+  border-width: 1px;
+  border-color: #8e8e8e;
+  background: #bee1e6;
+  transition: background 1s ease;
 }
 
 .btn-flat:hover {
   background: #F0EFEB;
-  color: white;
+  color: black;
 }
 
 .center-text {
@@ -50,7 +52,7 @@
 }
 
 .center-vert {
-  padding: 140px 0;
+  padding: 140px 55px;
 }
 
 .footer {
